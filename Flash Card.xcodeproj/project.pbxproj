@@ -6,17 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F190EB142CEEF1A200849ECF /* Flash_Card.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F190EB042CEEF1A200849ECF /* Flash_Card.xcdatamodeld */; };
+		F190EB152CEEF1A200849ECF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190EB052CEEF1A200849ECF /* Persistence.swift */; };
+		F190EB162CEEF1A200849ECF /* AddFlashcardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190EB092CEEF1A200849ECF /* AddFlashcardView.swift */; };
+		F190EB172CEEF1A200849ECF /* FlashcardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190EB0A2CEEF1A200849ECF /* FlashcardListView.swift */; };
+		F190EB182CEEF1A200849ECF /* ShuffleFlashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190EB0B2CEEF1A200849ECF /* ShuffleFlashcard.swift */; };
+		F190EB192CEEF1A200849ECF /* StartShuffleFlashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190EB0C2CEEF1A200849ECF /* StartShuffleFlashcard.swift */; };
+		F190EB1A2CEEF1A200849ECF /* Flash_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190EB0E2CEEF1A200849ECF /* Flash_CardApp.swift */; };
+		F190EB1B2CEEF1A200849ECF /* FlashcardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F190EB0F2CEEF1A200849ECF /* FlashcardViewModel.swift */; };
+		F190EB1C2CEEF1A200849ECF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F190EB072CEEF1A200849ECF /* Preview Assets.xcassets */; };
+		F190EB1D2CEEF1A200849ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F190EB112CEEF1A200849ECF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F167D50A2CECDF7400F7179D /* Flash Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F190EB052CEEF1A200849ECF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F190EB072CEEF1A200849ECF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F190EB092CEEF1A200849ECF /* AddFlashcardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFlashcardView.swift; sourceTree = "<group>"; };
+		F190EB0A2CEEF1A200849ECF /* FlashcardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardListView.swift; sourceTree = "<group>"; };
+		F190EB0B2CEEF1A200849ECF /* ShuffleFlashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleFlashcard.swift; sourceTree = "<group>"; };
+		F190EB0C2CEEF1A200849ECF /* StartShuffleFlashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartShuffleFlashcard.swift; sourceTree = "<group>"; };
+		F190EB0E2CEEF1A200849ECF /* Flash_CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flash_CardApp.swift; sourceTree = "<group>"; };
+		F190EB0F2CEEF1A200849ECF /* FlashcardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardViewModel.swift; sourceTree = "<group>"; };
+		F190EB112CEEF1A200849ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F190EB132CEEF1A200849ECF /* Flash_Card.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flash_Card.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F167D50C2CECDF7400F7179D /* Flash Card */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Flash Card";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F167D5072CECDF7400F7179D /* Frameworks */ = {
@@ -32,7 +47,7 @@
 		F167D5012CECDF7400F7179D = {
 			isa = PBXGroup;
 			children = (
-				F167D50C2CECDF7400F7179D /* Flash Card */,
+				F190EB122CEEF1A200849ECF /* Flash Card */,
 				F167D50B2CECDF7400F7179D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +58,55 @@
 				F167D50A2CECDF7400F7179D /* Flash Card.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F190EB062CEEF1A200849ECF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F190EB042CEEF1A200849ECF /* Flash_Card.xcdatamodeld */,
+				F190EB052CEEF1A200849ECF /* Persistence.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F190EB082CEEF1A200849ECF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F190EB072CEEF1A200849ECF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F190EB0D2CEEF1A200849ECF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F190EB092CEEF1A200849ECF /* AddFlashcardView.swift */,
+				F190EB0A2CEEF1A200849ECF /* FlashcardListView.swift */,
+				F190EB0B2CEEF1A200849ECF /* ShuffleFlashcard.swift */,
+				F190EB0C2CEEF1A200849ECF /* StartShuffleFlashcard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F190EB102CEEF1A200849ECF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F190EB0E2CEEF1A200849ECF /* Flash_CardApp.swift */,
+				F190EB0F2CEEF1A200849ECF /* FlashcardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F190EB122CEEF1A200849ECF /* Flash Card */ = {
+			isa = PBXGroup;
+			children = (
+				F190EB062CEEF1A200849ECF /* Model */,
+				F190EB082CEEF1A200849ECF /* Preview Content */,
+				F190EB0D2CEEF1A200849ECF /* View */,
+				F190EB102CEEF1A200849ECF /* ViewModel */,
+				F190EB112CEEF1A200849ECF /* Assets.xcassets */,
+			);
+			path = "Flash Card";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +123,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F167D50C2CECDF7400F7179D /* Flash Card */,
 			);
 			name = "Flash Card";
 			packageProductDependencies = (
@@ -109,6 +170,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F190EB1C2CEEF1A200849ECF /* Preview Assets.xcassets in Resources */,
+				F190EB1D2CEEF1A200849ECF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F190EB142CEEF1A200849ECF /* Flash_Card.xcdatamodeld in Sources */,
+				F190EB152CEEF1A200849ECF /* Persistence.swift in Sources */,
+				F190EB162CEEF1A200849ECF /* AddFlashcardView.swift in Sources */,
+				F190EB172CEEF1A200849ECF /* FlashcardListView.swift in Sources */,
+				F190EB182CEEF1A200849ECF /* ShuffleFlashcard.swift in Sources */,
+				F190EB192CEEF1A200849ECF /* StartShuffleFlashcard.swift in Sources */,
+				F190EB1A2CEEF1A200849ECF /* Flash_CardApp.swift in Sources */,
+				F190EB1B2CEEF1A200849ECF /* FlashcardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +331,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +361,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,6 +397,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F190EB042CEEF1A200849ECF /* Flash_Card.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F190EB132CEEF1A200849ECF /* Flash_Card.xcdatamodel */,
+			);
+			currentVersion = F190EB132CEEF1A200849ECF /* Flash_Card.xcdatamodel */;
+			path = Flash_Card.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F167D5022CECDF7400F7179D /* Project object */;
 }

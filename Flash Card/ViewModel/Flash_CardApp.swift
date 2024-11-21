@@ -13,7 +13,7 @@ struct Flash_CardApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FlashcardListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
